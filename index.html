@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>আমার ব্যক্তিগত তথ্য অ্যাপ</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <h1>আমার ব্যক্তিগত তথ্য সংরক্ষণ</h1>
+  
+  <!-- তথ্য এন্ট্রি ফর্ম -->
+  <form id="dataForm">
+    <label for="name">নাম:</label>
+    <input type="text" id="name" name="name" placeholder="আপনার নাম লিখুন" required>
+    <br />
+    <label for="info">তথ্য:</label>
+    <textarea id="info" name="info" placeholder="আপনার তথ্য লিখুন" required></textarea>
+    
+    <button type="submit">সংরক্ষণ করুন</button>
+  </form>
+
+  <!-- সংরক্ষিত তথ্য দেখানোর স্থান -->
+  <h2>সংরক্ষিত তথ্য:</h2>
+  <div id="savedData"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

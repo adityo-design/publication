@@ -1,0 +1,20 @@
+{}{
+  "name": "লাবন্য",
+  "short_name": "DataApp",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2c7a7b",
+  "icons": [
+    {
+      "src": "/large.png",
+      "sizes": "192x192",
+      "type": "png"
+    },
+    {
+      "src": "/large.png",
+      "sizes": "512x512",
+      "type": "png"
+    }
+  ]
+}
